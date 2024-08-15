@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "../../UADE/Desarrollo Web"
+	},
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../desarrolloWeb"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "desarrolloWeb"
+  }
+}
