@@ -13,11 +13,11 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Navigate to="/landing" />} />
+        <Route path="/" element={<Navigate to="/Landing" />} />
         <Route path="/Landing" element={<Landing />} />
         <Route path="/BarberShop" element={<BarberShop />} />
         <Route path="/Consulting" element={<Consulting />} />
-        <Route path="/Tourism" element={<Tourism/>} />
+        <Route path="/Tourism" element={<Tourism />} />
       </Routes>
     </Router>
   )

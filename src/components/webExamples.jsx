@@ -1,7 +1,8 @@
-import React from "react";
-import agencia from '../../public/agenciaWeb.jpeg'
-import barberia from '../../public/barberiaWeb.jpeg'
-import consultorio from '../../public/consultorioWeb.jpeg'
+import React from "react"
+import { Navigate } from "react-router-dom"
+import agencia from "../../public/agenciaWeb.jpeg"
+import barberia from "../../public/barberiaWeb.jpeg"
+import consultorio from "../../public/consultorioWeb.jpeg"
 const WebExamples = React.forwardRef((props, ref) => {
   return (
     <section ref={ref} id="webExamples" className="text-gray-600 body-font">
@@ -25,7 +26,10 @@ const WebExamples = React.forwardRef((props, ref) => {
                   Ideal para la venta de packs par agencias
                 </p>
                 <div className="flex items-center flex-wrap">
-                  <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                  <a
+                    className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                    href="/Consulting"
+                  >
                     Visitar
                     <svg
                       className="w-4 h-4 ml-2"
@@ -208,9 +212,8 @@ const WebExamples = React.forwardRef((props, ref) => {
         </div>
       </div>
     </section>
-  );
-});
+  )
+})
 
-WebExamples.displayName = "WebExamples";
-export default WebExamples;
-
+WebExamples.displayName = "WebExamples"
+export default WebExamples
