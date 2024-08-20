@@ -1,10 +1,10 @@
 import React from 'react';
-import inv1 from '../../public/1.png'
-import inv2 from '../../public/2.png'
-import inv3 from '../../public/3.png'
-import inv4 from '../../public/4.png'
-import inv5 from '../../public/5.png'
-import inv6 from '../../public/6.png'
+import inv1 from '../assets/1.png'
+import inv2 from '../assets/2.png'
+import inv3 from '../assets/3.png'
+import inv4 from '../assets/4.png'
+import inv5 from '../assets/5.png'
+import inv6 from '../assets/6.png'
 
 const Content1 = React.forwardRef((props, ref) => {
   return (

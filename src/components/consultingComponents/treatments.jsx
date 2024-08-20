@@ -1,8 +1,8 @@
 import React from 'react';
-import menton from '../../../public/consulting/menton.jpg'
-import labios from '../../../public/consulting/labios.jpg'
-import nariz from '../../../public/consulting/nariz.jpg'
-import pomulos from '../../../public/consulting/pomulos.jpg'
+import menton from '../../assets/consulting/menton.jpg'
+import labios from '../../assets/consulting/labios.jpg'
+import nariz from '../../assets/consulting/nariz.jpg'
+import pomulos from '../../assets/consulting/pomulos.jpg'
 
 const Treatments = React.forwardRef((props, ref) =>{
     return(

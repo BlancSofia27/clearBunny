@@ -1,12 +1,12 @@
 import React from 'react';
-import doc from '../../../public/consulting/doc.png';
-import con1 from '../../../public/consulting/con1.jpg';
-import con5 from '../../../public/consulting/con5.jpg';
-import con3 from '../../../public/consulting/con3.jpg';
-import beforeLips from '../../../public/consulting/beforeLips.jpg';
-import afterLips from '../../../public/consulting/afterLips.jpg';
-import relleno from '../../../public/consulting/relleno.mp4';
-import perfilado from '../../../public/consulting/perfiladoVideo.mp4';
+import doc from '../../assets/consulting/doc.png';
+import con1 from '../../assets/consulting/con1.jpg';
+import con5 from '../../assets/consulting/con5.jpg';
+import con3 from '../../assets/consulting/con3.jpg';
+import beforeLips from '../../assets/consulting/beforeLips.jpg';
+import afterLips from '../../assets/consulting/afterLips.jpg';
+import relleno from '../../assets/consulting/relleno.mp4';
+import perfilado from '../../assets/consulting/perfiladoVideo.mp4';
 import BeforeAfterSlider from './before';
 
 const HeroC = React.forwardRef((props, ref) => {

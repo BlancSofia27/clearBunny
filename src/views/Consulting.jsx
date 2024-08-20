@@ -1,7 +1,7 @@
 import HeroC from "../components/consultingComponents/heroC"
 import Treatments from "../components/consultingComponents/treatments"
 import { useRef } from "react"
-import logoC from "../../public/consulting/logoC.png"
+import logoC from "../assets/consulting/logoC.png"
 import FooterC from "../components/consultingComponents/footerC"
 
 export default function Consulting() {

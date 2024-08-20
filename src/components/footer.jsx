@@ -1,12 +1,12 @@
 import React from "react"
-import logoBunny from '../../public/logo.png'
+import logoBunny from '../assets/logo.png'
 const Footer = React.forwardRef((props, ref) => {
   return (
     <footer ref={ref} id="footer" className="text-gray-600 body-font">
       <div className=" container px-5 py-7 mx-auto  md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col hidden sm:block">
         <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10 md:items-center md:justify-center">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <div className=" bg-celeste rounded-full overflow-hidden sm:w-20 md:w-10">
+          <div className="w-14 h-14 p-2 bg-celeste rounded-full overflow-hidden">
               <img
                 className="w-full h-full object-cover"
                 src={logoBunny}

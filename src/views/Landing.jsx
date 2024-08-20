@@ -5,7 +5,7 @@ import Hero from "../components/hero"
 import Steps from "../components/steps"
 import WebExamples from "../components/webExamples"
 import { useRef } from "react"
-import logoBunny from "../../public/logo.png"
+import logoBunny from "../assets/logo.png"
 
 export default function Landing() {
   const contentRef = useRef(null)
@@ -33,7 +33,7 @@ export default function Landing() {
       <header className="text-gray-600 body-font hidden sm:block ">
         <div className="w-full justify-center mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center md:mx-0 ">
           <a className="flex title-font font-medium items-center text-gray-900 my-2 md:mb-0">
-            <div className="w-14 bg-celeste rounded-full overflow-hidden">
+            <div className="w-14 h-14 p-2 bg-celeste rounded-full overflow-hidden">
               <img
                 className="w-full h-full object-cover"
                 src={logoBunny}

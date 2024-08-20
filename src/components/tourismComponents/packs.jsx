@@ -1,5 +1,5 @@
 import React from "react"
-import avion from "../../../public/tourism/avion.gif"
+import avion from "../../assets/tourism/avion.gif"
 import Card from "./cards";
 const Packs = React.forwardRef((props, ref)=>{
     return(

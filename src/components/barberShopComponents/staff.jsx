@@ -1,7 +1,7 @@
 import React from "react"
-import staff1 from "../../../public/barberShop/staff1.png";
-import staff2 from "../../../public/barberShop/staff2.png";
-import staff3 from "../../../public/barberShop/staff3.png";
+import staff1 from "../../assets/barberShop/staff1.png";
+import staff2 from "../../assets/barberShop/staff2.png";
+import staff3 from "../../assets/barberShop/staff3.png";
 // Aquí podrías importar tu SVG como un componente React, o simplemente insertarlo directamente en el JSX
 
 const Staff = React.forwardRef((props, ref) => {

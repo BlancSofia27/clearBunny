@@ -1,5 +1,5 @@
 import React from "react"
-import logo from '../../../public/tourism/plane.svg'
+import logo from '../../assets/tourism/plane.svg'
 
 const FooterT = React.forwardRef((props, ref) => {
     return (

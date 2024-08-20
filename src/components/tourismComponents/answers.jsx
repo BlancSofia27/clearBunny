@@ -1,8 +1,8 @@
 import React from "react"
 import AnswerCard from "./answerCard"
-import buy from '../../../public/tourism/buy.svg'
-import pay from '../../../public/tourism/pay.svg'
-import document from '../../../public/tourism/document.svg'
+import buy from '../../assets/tourism/buy.svg'
+import pay from '../../assets/tourism/pay.svg'
+import document from '../../assets/tourism/document.svg'
 
 const Answers = React.forwardRef((props, ref) => {
   return (

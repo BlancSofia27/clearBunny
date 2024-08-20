@@ -37,7 +37,7 @@ const BeforeAfterSlider = ({ beforeImage, afterImage }) => {
         alt="After"
       />
       <div
-        className="absolute top-0 left-0 w-1 h-full bg-gray-800"
+        className="absolute top-0 left-0 w-1 h-full bg-white"
         style={{ left: `${sliderPosition}%`, transform: 'translateX(-50%)' }}
       />
     </div>

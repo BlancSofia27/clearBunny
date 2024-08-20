@@ -1,8 +1,8 @@
 import React from "react"
-import logoC from '../../../public/consulting/logoC.png'
-import youtube from '../../../public/consulting/youtubeC.svg'
-import instagram from '../../../public/consulting/instagramC.svg'
-import whatsapp from '../../../public/consulting/whatsappC.svg'
+import logoC from '../../assets/consulting/logoC.png'
+import youtube from '../../assets/consulting/youtubeC.svg'
+import instagram from '../../assets/consulting/instagramC.svg'
+import whatsapp from '../../assets/consulting/whatsappC.svg'
 const FooterC = React.forwardRef((props, ref) => {
   return (
     <footerC ref={ref} id="footerC" className="text-gray-600 body-font">

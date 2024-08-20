@@ -1,5 +1,5 @@
 
-import mollyHero from '../../public/molly1.png'
+import mollyHero from '../assets/molly1.png'
 export default function Hero() {
   return (
     <section className="text-gray-600 body-font bg-whitee rounded-bl-[25px]">

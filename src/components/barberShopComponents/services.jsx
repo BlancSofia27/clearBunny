@@ -1,10 +1,10 @@
 import React from "react";
-import barber1 from "../../../public/barberShop/1.png";
-import barber2 from "../../../public/barberShop/2.png";
-import barber3 from "../../../public/barberShop/3.png";
-import barber4 from "../../../public/barberShop/4.png";
-import barber5 from "../../../public/barberShop/5.png";
-import barber6 from "../../../public/barberShop/6.png";
+import barber1 from "../../assets/barberShop/1.png";
+import barber2 from "../../assets/barberShop/2.png";
+import barber3 from "../../assets/barberShop/3.png";
+import barber4 from "../../assets/barberShop/4.png";
+import barber5 from "../../assets/barberShop/5.png";
+import barber6 from "../../assets/barberShop/6.png";
 
 const Services = React.forwardRef((props, ref) => {
   return (

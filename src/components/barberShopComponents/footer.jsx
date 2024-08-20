@@ -1,5 +1,5 @@
 import React from "react"
-import logoBarber from '../../../public/barberShop/logoBarber.png'
+import logoBarber from '../../assets/barberShop/logoBarber.png'
 const FooterB = React.forwardRef((props, ref) => {
   return (
     <footerB ref={ref} id="footerB" className="text-gray-600 body-font">

@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import Packs from '../components/tourismComponents/packs';
 import { useRef } from "react";
 import Answers from '../components/tourismComponents/answers';
-import plane from '../../public/tourism/plane.svg';
+import plane from '../assets/tourism/plane.svg';
 import Nexts from '../components/tourismComponents/nexts';
 import FooterT from '../components/tourismComponents/footerT';
 
