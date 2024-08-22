@@ -22,7 +22,7 @@ export default function Hero() {
             atractivas. Convierte visitantes en clientes con facilidad
           </p>
           <div className="flex justify-center">
-            <button className="inline-flex font-regular text-white bg-celeste border-0 py-2 px-6 focus:outline-none rounded text-lg transition duration-1000 ease-in-out transform hover: hover:bg-white hover:text-celeste">
+            <button className="inline-flex font-regular text-white bg-celeste border-0 py-2 px-6 my-4 focus:outline-none rounded text-lg transition duration-1000 ease-in-out transform hover: hover:bg-white hover:text-celeste">
               Contactar a un asesor
             </button>
           </div>

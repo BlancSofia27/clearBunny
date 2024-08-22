@@ -11,13 +11,13 @@ import Consulting from "./views/Consulting"
 import Tourism from "./views/Tourism"
 function App() {
   return (
-    <Router basename="/Landing">
+    <Router>
       <Routes>
         <Route path="/" element={<Navigate to="/Landing" />} />
         <Route path="/Landing" element={<Landing />} />
-        <Route path="/BarberShop" element={<BarberShop />} />
-        <Route path="/Consulting" element={<Consulting />} />
-        <Route path="/Tourism" element={<Tourism />} />
+        <Route path="/Landing/BarberShop" element={<BarberShop />} />
+        <Route path="/Landing/Consulting" element={<Consulting />} />
+        <Route path="/Landing/Tourism" element={<Tourism />} />
       </Routes>
     </Router>
   )

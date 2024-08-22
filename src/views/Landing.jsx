@@ -30,7 +30,7 @@ export default function Landing() {
 
   return (
     <div className="">
-      <header className="text-gray-600 body-font hidden sm:block ">
+      <header className="text-gray-600 body-font  ">
         <div className="w-full justify-center mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center md:mx-0 ">
           <a className="flex title-font font-medium items-center text-gray-900 my-2 md:mb-0">
             <div className="w-14 h-14 p-2 bg-celeste rounded-full overflow-hidden">
@@ -42,7 +42,8 @@ export default function Landing() {
             </div>
             <span className="ml-3 text-xl md:text-base">Clear Bunny Software Agency</span>
           </a>
-          <nav className="my-4 mr-auto sm:mx-0  md:ml-4 lg:mr-4 md:py-1 md:px-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+          
+          <nav className="hidden sm:block my-4 mr-auto sm:mx-0  md:ml-4 lg:mr-4 md:py-1 md:px-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
             <a onClick={scrollToContent} className="sm:px-3 sm:text-lg  hover:text-gray-900 cursor-pointer">
               Inverti
             </a>
@@ -59,7 +60,7 @@ export default function Landing() {
               Contacto
             </a>
           </nav>
-          <div className="flex justify-end">
+          <div className="flex justify-end my-3">
           {/*button whatsapp*/}
           <button
             type="button"

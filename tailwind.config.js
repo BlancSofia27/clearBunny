@@ -6,7 +6,7 @@ export default {
       colors: {
         celeste: "#88CFBA",
         smooke: "#C4C4C4",
-        whitee:"#D4D4D4",
+        whitee:"#c7ced8",
         greyStep:"#E8E8E8",
         marronB:"#554c4c",
         roseC:"#FFD1F5",
