@@ -38,6 +38,9 @@ export default {
           },
         },
       },
+      screens: {
+        'xs': '300px', // Agregar el breakpoint 'xs' con un ancho mínimo de 300px
+      },
       variants: {
         extend: {
           filter: ['hover', 'group-hover'],

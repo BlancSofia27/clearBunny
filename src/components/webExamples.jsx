@@ -1,5 +1,4 @@
 import React from "react"
-import { Navigate } from "react-router-dom"
 import agencia from "../assets/agenciaWeb.jpeg"
 import barberia from "../assets/barberiaWeb.jpeg"
 import consultorio from "../assets/consultorioWeb.jpeg"
@@ -9,7 +8,7 @@ const WebExamples = React.forwardRef((props, ref) => {
       <div className="container px-5 py-24 mx-auto sm:py-2 lg:py-11 xl:py-24">
         <div className="flex flex-wrap -m-4 font-regular">
           <div className="p-4 md:w-1/3">
-            <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden group">
+            <div className="shadow-2xl h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden group">
               <img
                 className="blog-img lg:h-48 md:h-36 w-full object-cover object-center transition-filter duration-300 ease-in-out"
                 src={agencia}
@@ -23,11 +22,11 @@ const WebExamples = React.forwardRef((props, ref) => {
                   Agencia
                 </h1>
                 <p className="leading-relaxed mb-3">
-                  Ideal para la venta de packs par agencias
+                  Ideal para la venta de packs para agencias.
                 </p>
                 <div className="flex items-center flex-wrap">
                   <a
-                    className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                    className="text-celeste inline-flex items-center md:mb-2 lg:mb-0"
                     href="/Landing/Tourism"
                   >
                     Visitar
@@ -51,7 +50,7 @@ const WebExamples = React.forwardRef((props, ref) => {
             </div>
           </div>
           <div className="p-4 md:w-1/3">
-            <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden group">
+            <div className="shadow-2xl h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden group">
               <img
                 className="blog-img lg:h-48 md:h-36 w-full object-cover object-center transition-filter duration-300 ease-in-out"
                 src={barberia}
@@ -65,11 +64,11 @@ const WebExamples = React.forwardRef((props, ref) => {
                   Barberia y Salon de peluqueria
                 </h1>
                 <p className="leading-relaxed mb-3">
-                  Diseñada para presentar servicios y un staff de trabajo
+                  Diseñada para presentar servicios y un staff de trabajo.
                 </p>
                 <div className="flex items-center flex-wrap">
                   <a
-                    className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                    className="text-celeste inline-flex items-center md:mb-2 lg:mb-0"
                     href="/Landing/BarberShop"
                   >
                     Visitar
@@ -93,7 +92,7 @@ const WebExamples = React.forwardRef((props, ref) => {
             </div>
           </div>
           <div className="p-4 md:w-1/3">
-            <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden group">
+            <div className="shadow-2xl h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden group">
               <img
                 className="blog-img lg:h-48 md:h-36 w-full object-cover object-center transition-filter duration-300 ease-in-out"
                 src={consultorio}
@@ -107,11 +106,11 @@ const WebExamples = React.forwardRef((props, ref) => {
                   Consultorio medico o estetica
                 </h1>
                 <p className="leading-relaxed mb-3">
-                  Lista para exihibir los mejores trabajos y destacar un perfil
+                  Lista para exihibir los mejores trabajos y destacar un perfil.
                 </p>
                 <div className="flex items-center flex-wrap ">
                   <a
-                    className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                    className="text-celeste inline-flex items-center md:mb-2 lg:mb-0"
                     href="Landing/Consulting"
                   >
                     Visitar
